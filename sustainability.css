@@ -1,0 +1,50 @@
+/* title of the index page */
+h1 {
+  font-family: 'Sumana';
+  font-size: 60px;
+ color: red;
+ position: relative;
+ text-align: center;
+
+}
+
+button {
+  font-family: Anton;
+  color: green;
+  background: radial-gradient (circle, yellow);
+
+}
+
+
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background: grey;
+}
+div {
+
+}
+
+h2 {
+
+}
+p {
+ 
+}
+
+
+p {
+  color: blue;
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+
+h2 { 
+  
+} 
+
+h3 {
+   
+} 
