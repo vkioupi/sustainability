@@ -1,10 +1,4 @@
 /* title of the index page */
-h1 {
-  font-family: 'Sumana';
-  font-size: 60px;
- color: red;
- position: relative;
- text-align: center;
 
 }
 
@@ -18,33 +12,64 @@ button {
 
 body {
   font-family: helvetica, sans-serif;
-  margin: 0 auto;
-  max-width: 600px;
-  background: grey;
+  background: white;
+
 }
 div {
 
 }
 
-h2 {
+
+.navbar {
+  margin-bottom: 0;
 
 }
-p {
- 
+
+.jumbotron {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.display-3
+{
+  font-family: 'Sumana';
+  font-size: 60px;
+ color: red;
+ position: relative;
+ text-align: center;
 }
 
 
-p {
-  color: blue;
-  font-family: Helvetica;
-  font-size: 16px;
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
 }
 
+.card > img {
+  margin-bottom: .75rem;
+}
 
-h2 { 
-  
-} 
+.card-text {
+  font-size: 85%;
+}
 
-h3 {
-   
-} 
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
