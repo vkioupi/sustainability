@@ -1,35 +1,21 @@
 /* title of the index page */
 
-}
-
-button {
-  font-family: Anton;
-  color: green;
-  background: radial-gradient (circle, yellow);
-
-}
-
-
 body {
   font-family: helvetica, sans-serif;
   background: white;
 
 }
-div {
-
-}
-
 
 .navbar {
   margin-bottom: 0;
-
 }
 
-.jumbotron {
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  background-color: #fff;
+.display-3 {
+  font-family: 'Sumana';
+  font-size: 60px;
+ color: red;
+ position: relative;
+ text-align: center;
 }
 
 .jumbotron-heading {
@@ -40,36 +26,98 @@ div {
   max-width: 40rem;
 }
 
-.display-3
-{
-  font-family: 'Sumana';
-  font-size: 60px;
- color: red;
- position: relative;
- text-align: center;
+.card-deck {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction:column;
 }
-
 
 .card {
-  float: left;
-  width: 33.333%;
-  padding: .75rem;
-  margin-bottom: 2rem;
-  border: 0;
-}
-
-.card > img {
-  margin-bottom: .75rem;
+  width: 50px;
 }
 
 .card-text {
+
+  position: absolute;
+  top:100px;
   font-size: 85%;
 }
 
-footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+/* hover tranisition*/
+
+.cardhover {
+  position: relative;
+  float: left;
+  width: 33%;
+  height:100px;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  background-color: white;
 }
 
-footer p {
-  margin-bottom: .25rem;
+.cardhover {
+
+  margin-bottom: .75rem;
+
+  position: absolute;
+  -webkit-transition: opacity 1.5s ease-in-out;
+  -moz-transition: opacity 1.5s ease-in-out;
+  -o-transition: opacity 1.5s ease-in-out;
+  transition: opacity 1.5s ease-in-out;
+}
+
+
+/* rotate transition*/
+
+#cardrotate {
+  position: relative;
+  float: left;
+  width: 33%;
+  height:400px;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 1;
+  background-color: white;
+}
+
+#cardrotate img {
+
+  margin-bottom: .75rem;
+
+
+  position: absolute;
+  -webkit-transition: all 1.5s ease-in-out;
+  -moz-transition: all 1.5s ease-in-out;
+  -o-transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
+}
+
+  #cardrotate img.top {
+    -webkit-transform:scale(1,0);
+    -moz-transform:scale(1,0);
+    -o-transform:scale(1,0);
+    transform:scale(1,0);
+    filter: alpha(opacity=0);
+    opacity:0;
+
+  }
+
+  #cardrotate:hover img.top, #cardrotate.hover_effect img.top {
+    opacity:1;
+    -webkit-transform:scale(1,1);
+    -moz-transform:scale(1,1);
+    -o-transform:scale(1,1);
+    transform:scale(1,1);
+  }
+
+  #cardrotate:hover img.bottom, #cardrotate.hover_effect img.bottom {
+    filter: alpha(opacity=0);
+    -webkit-transform:rotate(360deg) scale(0,0);
+    -moz-transform:rotate(360deg) scale(0,0);
+    -o-transform:rotate(360deg) scale(0,0);
+    transform:rotate(360deg) scale(0,0);
+  }
+
+
+
