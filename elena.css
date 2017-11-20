@@ -8,10 +8,7 @@
 }
 
 .card-img-top {
-	height: 200px;
-	max-height: 200px;
-	width: 200px;
-	max-width: 200px;
+	clip: rect(0px, 50px, 10px, 0px);	
 }
 body {
 	background-color: rgb(20, 20, 31);
@@ -22,4 +19,6 @@ body {
 
 a {
 	text-align: center;
+	color: rgb(180, 0, 0);
+	size: 200px;
 }
