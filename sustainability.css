@@ -2,11 +2,12 @@
 
 body {
   font-family: helvetica, sans-serif;
-  background: rgb(20, 20, 31);
+  background: rgba(20, 20, 31, 1);
 
 }
 .navbar {
   margin-bottom: 0;
+  background: rgb(20, 20, 31)
 }
 
 .display-3 {
