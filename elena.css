@@ -7,4 +7,19 @@
 	font-family: 'Anton';
 }
 
+.card-img-top {
+	height: 200px;
+	max-height: 200px;
+	width: 200px;
+	max-width: 200px;
+}
+body {
+	background-color: rgb(20, 20, 31);
+}
+.card-body {
+	background-color: rgb(191, 191, 191);
+}
 
+a {
+	text-align: center;
+}
