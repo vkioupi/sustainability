@@ -1,13 +1,13 @@
-/* title of the index page */
+/* title of the index page*/
 
 body {
   font-family: helvetica, sans-serif;
-  background: rgba(20, 20, 31, 1);
-
+  background-color: rgba(20, 20, 31, 1);
 }
+
 .navbar {
   margin-bottom: 0;
-  background: rgb(20, 20, 31)
+  background: rgba(20, 20, 31, 1);
 }
 
 .display-3 {
@@ -24,16 +24,33 @@ body {
 
 .jumbotron .container {
   max-width: 40rem;
-}
-
-.card-deck {
-  display: flex;
-  flex: 1 0 0;
-  flex-direction:column;
+  background: rgba(20, 20, 31,1);
 }
 
 .card {
-  width: 50px;
+  width: 33%;
+  padding: .25rem;
+  min-height: 350px;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+#hovereffect {
+	position:relative;
+}
+
+#hovereffect img {
+  position:absolute;
+  left:0;
+  width:100%;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#hovereffect img.top:hover {
+  opacity:0;
 }
 
 .card-text {
@@ -42,82 +59,6 @@ body {
   top:100px;
   font-size: 85%;
 }
-
-/* hover tranisition*/
-
-.cardhover {
-  position: relative;
-  float: left;
-  width: 33%;
-  height:100px;
-  padding: .75rem;
-  margin-bottom: 2rem;
-  border: 0;
-  background-color: white;
-}
-
-.cardhover {
-
-  margin-bottom: .75rem;
-
-  position: absolute;
-  -webkit-transition: opacity 1.5s ease-in-out;
-  -moz-transition: opacity 1.5s ease-in-out;
-  -o-transition: opacity 1.5s ease-in-out;
-  transition: opacity 1.5s ease-in-out;
-}
-
-
-/* rotate transition*/
-
-#cardrotate {
-  position: relative;
-  float: left;
-  width: 33%;
-  height:400px;
-  padding: .75rem;
-  margin-bottom: 2rem;
-  border: 1;
-  background-color: white;
-}
-
-#cardrotate img {
-
-  margin-bottom: .75rem;
-
-
-  position: absolute;
-  -webkit-transition: all 1.5s ease-in-out;
-  -moz-transition: all 1.5s ease-in-out;
-  -o-transition: all 1.5s ease-in-out;
-  transition: all 1.5s ease-in-out;
-}
-
-  #cardrotate img.top {
-    -webkit-transform:scale(1,0);
-    -moz-transform:scale(1,0);
-    -o-transform:scale(1,0);
-    transform:scale(1,0);
-    filter: alpha(opacity=0);
-    opacity:0;
-
-  }
-
-  #cardrotate:hover img.top, #cardrotate.hover_effect img.top {
-    opacity:1;
-    -webkit-transform:scale(1,1);
-    -moz-transform:scale(1,1);
-    -o-transform:scale(1,1);
-    transform:scale(1,1);
-  }
-
-  #cardrotate:hover img.bottom, #cardrotate.hover_effect img.bottom {
-    filter: alpha(opacity=0);
-    -webkit-transform:rotate(360deg) scale(0,0);
-    -moz-transform:rotate(360deg) scale(0,0);
-    -o-transform:rotate(360deg) scale(0,0);
-    transform:rotate(360deg) scale(0,0);
-  }
 
 
 
