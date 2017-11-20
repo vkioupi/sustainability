@@ -1,9 +1,10 @@
 .jumbotron {
 	background-color: rgb(20, 20, 31);
 }
-body {
-	font-family:'Anton';
+
+.display-3 {
+	color: rgb(153, 0, 0);
+	font-family: 'Anton';
 }
-display-3 {
-	color: : rgb(204, 0, 0);
-	} 
+
+
