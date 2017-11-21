@@ -13,10 +13,6 @@
 	overflow: hidden;
 }
 
-body {
-	background-color: rgba(20, 20, 31, 1);
-}
-
 .card-body {
 	background-color: rgb(191, 191, 191);
 }

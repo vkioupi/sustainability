@@ -1,64 +1,49 @@
 /* title of the index page*/
 
 body {
-  font-family: helvetica, sans-serif;
-  background-color: rgba(20, 20, 31, 1);
+    font-family: helvetica, sans-serif;
+    background-color: rgba(20, 20, 31, 1);
 }
-
 .navbar {
-  margin-bottom: 0;
-  background: rgba(20, 20, 31, 1);
+    margin-bottom: 0;
+    background: rgba(20, 20, 31, 1);
 }
-
 .display-3 {
-  font-family: 'Sumana';
-  font-size: 60px;
- color: red;
- position: relative;
- text-align: center;
+    font-family: 'Sumana';
+    font-size: 60px;
+    color: red;
+    position: relative;
+    text-align: center;
 }
-
 .jumbotron-heading {
-  font-weight: 300;
+    font-weight: 300;
 }
-
 .jumbotron .container {
-  max-width: 40rem;
-  background: rgba(20, 20, 31,1);
+    max-width: 40rem;
+    background: rgba(20, 20, 31, 1);
 }
-
 .card {
-  width: 33%;
-  padding: .25rem;
-  min-height: 350px;
-  margin-bottom: 2rem;
-  position: relative;
+    width: 33%;
+    min-height: 250px;
+    overflow: hidden;
+    position: relative;
+    background: rgba(20, 20, 31, 1);
+    border-color: red;
 }
-
 #hovereffect {
-	position:relative;
+    width: 100%;
+    position: absolute;
 }
-
 #hovereffect img {
-  position:absolute;
-  left:0;
-  width:100%;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    min-height: 250px;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
-
 #hovereffect img.top:hover {
-  opacity:0;
+    opacity: 0;
 }
-
-.card-text {
-
-  position: absolute;
-  top:100px;
-  font-size: 85%;
-}
-
-
-
