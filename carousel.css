@@ -87,6 +87,7 @@ body {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+
   }
 }
 .pasta {
@@ -118,3 +119,4 @@ img {
     max-width: 100%;
     height: auto;
 }
+
