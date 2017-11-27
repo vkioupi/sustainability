@@ -9,11 +9,14 @@ body {
     background: rgba(20, 20, 31, 1);
 }
 .display-3 {
-    font-family: 'Sumana';
+    font-family: 'Anton';
     font-size: 60px;
-    color: red;
+    color: rgb(180, 0, 0);
     position: relative;
     text-align: center;
+}
+.jumbotron {
+    background-color: rgba(20, 20, 31, 1);
 }
 .jumbotron-heading {
     font-weight: 300;
@@ -21,6 +24,11 @@ body {
 .jumbotron .container {
     max-width: 40rem;
     background: rgba(20, 20, 31, 1);
+}
+a {
+    text-align: center;
+    color: rgb(180, 0, 0);
+    size: 200px;    
 }
 .card {
     width: 33%;

@@ -1,24 +1,4 @@
-.jumbotron {
-	background-color: rgba(20, 20, 31, 1);
-}
 
-.display-3 {
-	color: rgb(153, 0, 0);
-	font-family: 'Anton';
-}
 
-.card-image-container {
-	background-color: rgba(20, 20, 31, 1);
-	max-height: 100px;
-	overflow: hidden;
-}
 
-.card-body {
-	background-color: rgb(191, 191, 191);
-}
 
-a {
-	text-align: center;
-	color: rgb(180, 0, 0);
-	size: 200px;	
-}
