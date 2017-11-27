@@ -4,10 +4,12 @@ body {
     font-family: helvetica, sans-serif;
     background-color: rgba(20, 20, 31, 1);
 }
+
 .navbar {
     margin-bottom: 0;
     background: rgba(20, 20, 31, 1);
 }
+
 .display-3 {
     font-family: 'Anton';
     font-size: 60px;
@@ -15,21 +17,26 @@ body {
     position: relative;
     text-align: center;
 }
+
 .jumbotron {
     background-color: rgba(20, 20, 31, 1);
 }
+
 .jumbotron-heading {
     font-weight: 300;
 }
+
 .jumbotron .container {
     max-width: 40rem;
     background: rgba(20, 20, 31, 1);
 }
+
 a {
     text-align: center;
     color: rgb(180, 0, 0);
     size: 200px;    
 }
+
 .card {
     width: 33%;
     min-height: 250px;
@@ -38,10 +45,12 @@ a {
     background: rgba(20, 20, 31, 1);
     border-color: red;
 }
+
 #hovereffect {
     width: 100%;
     position: absolute;
 }
+
 #hovereffect img {
     position: absolute;
     left: 0;
@@ -52,6 +61,7 @@ a {
     -o-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
 }
+
 #hovereffect img.top:hover {
     opacity: 0;
 }
